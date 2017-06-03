@@ -23,8 +23,8 @@ class Message extends Component {
       case "imageMessage":
         return (
           <div className="message">
-            <span className="message-username" style={{color:`${color}`}}>{username}</span>
-            <img src={content} />
+            <span className="message-username" style={{color}}>{username}</span>
+            <img src={content} style={{"height":"300px","marginRight":"50px"}} />
           </div>
         );
         break;
