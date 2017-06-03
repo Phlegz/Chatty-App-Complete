@@ -22,4 +22,5 @@ npm run lint
 
 ## Final Product
 
-!["Screenshot of the home page"]()
+!["Screenshot of the home page"](https://github.com/Phlegz/Chatty-App-Complete/blob/master/docs/chatty-app-1.png)
+!["Screenshot of the home page"](https://github.com/Phlegz/Chatty-App-Complete/blob/master/docs/chatty-app-2.png)
