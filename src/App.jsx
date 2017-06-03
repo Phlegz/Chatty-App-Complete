@@ -14,9 +14,10 @@ class App extends Component {
     this.newMessage = this.newMessage.bind(this);
   }
 
-  newMessage(username = "Anonymous", content) {
-    const previousUser = this.state.currentUser.name || "Anonymous";
-    if (username !== previousUser) {
+  newMessage(username, content) {
+    if (!username) {username = "Anonymous";}
+    const previousUser = this.state.currentUser.name;
+    if (username !== "Anonymous" && username !== previousUser) {
       const nameChangeMessage = {
         username,
         content: `${previousUser} changed their name to ${username}`,
